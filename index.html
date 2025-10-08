@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner Đào Tạo Kiến Thức Samsung</title>
+    <!-- Tải Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Thiết lập font Inter cho giao diện */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* Màu nền xanh đen đậm */
+            background-color: #0c0d12;
+        }
+    </style>
+</head>
+<body>
+
+<div id="banner-container" class="w-11/12 max-w-4xl p-6 md:p-10 rounded-xl shadow-2xl bg-gray-900 border border-blue-900/50">
+
+    <!-- Phần Tiêu Đề Chính -->
+    <header class="text-center mb-10">
+        <h1 class="text-3xl md:text-5xl font-extrabold text-white leading-tight mb-2">
+            Chương Trình <span class="text-blue-500">Đào Tạo</span>
+        </h1>
+        <h2 class="text-xl md:text-3xl font-light text-gray-300">
+            Kiến Thức Điện Thoại <span class="font-semibold text-blue-400">Samsung</span>
+        </h2>
+    </header>
+
+    <!-- Khối Chức Năng (Tài liệu, Video, Trắc nghiệm) -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <!-- 1. Tài liệu (Documents) -->
+        <div class="feature-card p-6 bg-gray-800 rounded-lg text-center hover:bg-blue-900/70 transition duration-300 transform hover:scale-[1.03] cursor-pointer shadow-lg border border-gray-700">
+            <!-- Icon cho Tài liệu (Sử dụng SVG cho một cuốn sách) -->
+            <svg class="w-12 h-12 mx-auto mb-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.208 5 7.5 5A3.5 3.5 0 004 8.5v12a2 2 0 002 2h12a2 2 0 002-2v-12c0-1.657-1.343-3-3-3H7.5zm0 0l-1.5 1.5M21.5 10l-1.5 1.5"></path>
+            </svg>
+            <h3 class="text-xl font-bold text-white mb-2">Tài liệu</h3>
+            <p class="text-gray-400 text-sm">Cập nhật thông số kỹ thuật, tính năng chi tiết, và hướng dẫn chuyên sâu.</p>
+        </div>
+
+        <!-- 2. Video (Video Tutorials) -->
+        <div class="feature-card p-6 bg-gray-800 rounded-lg text-center hover:bg-blue-900/70 transition duration-300 transform hover:scale-[1.03] cursor-pointer shadow-lg border border-gray-700">
+            <!-- Icon cho Video (Sử dụng SVG cho một máy quay phim) -->
+            <svg class="w-12 h-12 mx-auto mb-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M4 8v8a2 2 0 002 2h12a2 2 0 002-2V8a2 2 0 00-2-2H6a2 2 0 00-2 2z"></path>
+            </svg>
+            <h3 class="text-xl font-bold text-white mb-2">Video</h3>
+            <p class="text-gray-400 text-sm">Xem các đoạn phim hướng dẫn sử dụng và giới thiệu sản phẩm trực quan, sinh động.</p>
+        </div>
+
+        <!-- 3. Trắc nghiệm (Quizzes/Tests) -->
+        <div class="feature-card p-6 bg-gray-800 rounded-lg text-center hover:bg-blue-900/70 transition duration-300 transform hover:scale-[1.03] cursor-pointer shadow-lg border border-gray-700">
+            <!-- Icon cho Trắc nghiệm (Sử dụng SVG cho một dấu kiểm) -->
+            <svg class="w-12 h-12 mx-auto mb-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <h3 class="text-xl font-bold text-white mb-2">Trắc nghiệm</h3>
+            <p class="text-gray-400 text-sm">Kiểm tra và đánh giá kiến thức đã học với các bài thi nhanh và hiệu quả.</p>
+        </div>
+    </div>
+
+    <!-- Thông điệp hành động -->
+    <div class="mt-10 text-center">
+        <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition duration-300 shadow-xl shadow-blue-500/30">
+            Bắt Đầu Khóa Học Ngay
+        </button>
+    </div>
+
+</div>
+
+</body>
+</html>
