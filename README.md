@@ -1,2 +1,3 @@
 https://github.com/binhbuithanhlongan-collab/TrainingNewPS/blob/8f0b2b86ed91d4fdbbd415c06ed54d04e8b08434/Hu%CC%9Bo%CC%9B%CC%81ng%20da%CC%82%CC%83n%20kie%CC%82%CC%89m%20tra%20TARGET%20%20SO%20tre%CC%82n%20APP%20SMART.png
 https://github.com/binhbuithanhlongan-collab/TrainingNewPS/blob/f88c9d951996e91a88eaa44af511d0f3a58f463d/Hu%CC%9Bo%CC%9B%CC%81ng%20da%CC%82%CC%83n%20kie%CC%82%CC%89m%20tra%20TARGET%20%20SO%20tre%CC%82n%20APP%20SMART.png
+https://github.com/binhbuithanhlongan-collab/TrainingNewPS/blob/6f516838c2979a28915c1795944045f5d2d69d79/One%20UI%208%20-%20New%20Update.pdf
